@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Todos</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id = "main">
+    <div class="container">
+        <h2>Your Todos</h2>
+        <button id="clear-button" onclick="deleteAllTodos()">Clear all</button>
+
+        <div id="todo-list" class="todo-cards">
+            <p id="empty-message">loading your todos...</p>
+            
+        </div>
+
+        <div class="add-todo">
+            <input type="text" id="new-todo" placeholder="Add new todo" /><br>
+            <textarea  style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" id="description" placeholder="description"></textarea><br>
+            <button id="add-button">Add</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
